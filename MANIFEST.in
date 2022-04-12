@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hydrotech_uae *.css
+recursive-include hydrotech_uae *.csv
+recursive-include hydrotech_uae *.html
+recursive-include hydrotech_uae *.ico
+recursive-include hydrotech_uae *.js
+recursive-include hydrotech_uae *.json
+recursive-include hydrotech_uae *.md
+recursive-include hydrotech_uae *.png
+recursive-include hydrotech_uae *.py
+recursive-include hydrotech_uae *.svg
+recursive-include hydrotech_uae *.txt
+recursive-exclude hydrotech_uae *.pyc
