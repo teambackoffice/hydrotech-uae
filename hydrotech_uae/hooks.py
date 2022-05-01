@@ -94,6 +94,12 @@ app_license = "MIT"
 # Document Events
 # ---------------
 # Hook on document methods and events
+doc_events = {
+    "Journal Entry": {
+		"on_submit": "hydrotech_uae.doc_events.journal_entry.submit_jv",
+		"on_cancel": "hydrotech_uae.doc_events.journal_entry.cancel_jv"
+	}
+}
 
 # doc_events = {
 # 	"*": {
@@ -178,4 +184,3 @@ user_data_fields = [
 # auth_hooks = [
 # 	"hydrotech_uae.auth.validate"
 # ]
-
