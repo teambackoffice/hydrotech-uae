@@ -14,7 +14,7 @@
  "is_standard": 1,
  "label": "Hydrotech",
  "links": [],
- "modified": "2022-05-01 21:09:05.553946",
+ "modified": "2022-05-27 16:56:45.308505",
  "modified_by": "Administrator",
  "module": "hydrotech_uae",
  "name": "Hydrotech",
@@ -57,6 +57,24 @@
    "label": "Petty Cash Request",
    "link_to": "Petty Cash Request",
    "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Purchase Receipt List",
+   "link_to": "Purchase Receipt List",
+   "type": "Report"
+  },
+  {
+   "doc_view": "List",
+   "label": "PC Report",
+   "link_to": "PC Report",
+   "type": "Report"
+  },
+  {
+   "doc_view": "List",
+   "label": "Stock Check Report",
+   "link_to": "SI and DN Cross Checker",
+   "type": "Report"
   }
  ],
  "shortcuts_label": "Hydrotech "
